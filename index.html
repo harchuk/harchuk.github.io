@@ -16,6 +16,12 @@
       .theBrownBackground {background-color:#d5bdaf}
       .theBrown2Background {background-color:#D6CCC2}
       .theBrown3Background {background-color:#F5EBE0}
+      .bckgroundimage {
+        background-image: url('/ebe92a84ae9c4bf0e21bfc61656084a9.jpg'); /* Path to the image */
+        background-size: cover; /* Scale the image to cover the entire element */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-position: center center; /* Center the image */
+      }
       img[alt=picture] { width: 800px; }
       img[alt=pictureDev] { width: 500px; }
       img[alt=picture2] { width: 750px; }
@@ -30,7 +36,7 @@
   <body>
     <textarea id="source">
 
-class: center, middle, theBrownBackground
+class: center, middle, bckgroundimage
 
 # DevOps: Просто о сложном
       
@@ -192,7 +198,7 @@ class: theBrown3Background
    - **Вопросы и ответы:** Вопросы аудитории.
 
     </textarea>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    <script src="/remark-latest.min.js">
     </script>
     <script>
       var slideshow = remark.create();
