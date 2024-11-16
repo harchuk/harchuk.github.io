@@ -16,6 +16,12 @@
       .theBrownBackground {background-color:#d5bdaf}
       .theBrown2Background {background-color:#D6CCC2}
       .theBrown3Background {background-color:#F5EBE0}
+      .bckgroundimage {
+        background-image: url('/1674771616_bogatyr-club-p-fon-dlya-prezentatsii-tsifrovie-tekhnologi-1.png'); /* Path to the image */
+        background-size: cover; /* Scale the image to cover the entire element */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-position: center center; /* Center the image */
+      }
       img[alt=picture] { width: 800px; }
       img[alt=pictureDev] { width: 500px; }
       img[alt=picture2] { width: 750px; }
@@ -30,7 +36,7 @@
   <body>
     <textarea id="source">
 
-class: center, middle, theBrownBackground
+class: center, middle, bckgroundimage
 
 # DevOps: Просто о сложном
       
@@ -45,7 +51,7 @@ class: center, middle, theBrownBackground
 [_](/helps.html)
       
 ---
-class: theBrownBackground
+class: bckgroundimage
       
 # Введение в DevOps 
 
@@ -56,7 +62,7 @@ class: theBrownBackground
    - **Значимость DevOps:** В современных компаниях DevOps позволяет значительно повысить скорость выпуска продуктов, улучшить качество программного обеспечения и обеспечить стабильную работу. Это способствует более быстрому времени выхода на рынок и большей удовлетворенности клиентов.
 
 ---
-class: theBrownBackground
+class: bckgroundimage
 
 # Роль DevOps-инженеров 
 
@@ -68,7 +74,7 @@ class: theBrownBackground
    - **Коммуникация:** DevOps-инженеры также активно взаимодействуют с разработчиками и системными администраторами для обеспечения бесперебойного потока работы, объединяя команды разработки и эксплуатации.
 
 ---
-class: theBrownBackground
+
 
 # Значимость DevOps  
    - **Преимущества DevOps:** Одним из главных преимуществ DevOps является ускорение релизов. Автоматизация процессов позволяет быстрее выпускать обновления и исправления, что особенно важно для удовлетворения потребностей пользователей.  
@@ -76,7 +82,7 @@ class: theBrownBackground
    - **Снижение количества ошибок:** Совместная ответственность и прозрачность способствуют более быстрому устранению ошибок и уменьшению времени простоя.
 
 ---
-class: theBrownBackground
+
       
 # DevOps в разных масштабах  
 
@@ -87,7 +93,7 @@ class: theBrownBackground
    - **Преимущества и вызовы:** Основной вызов — баланс между гибкостью, необходимой для разработки, и стабильностью, необходимой для эксплуатации. Крупным компаниям также сложно быстро менять культурные аспекты и внедрять новые практики.
 
 ---
-class: theBrown2Background
+
 
 # Инструменты DevOps 
       
@@ -99,7 +105,7 @@ class: theBrown2Background
    - **CI/CD:** Jenkins, GitLab CI и GitHub Actions позволяют автоматизировать процесс интеграции и развертывания кода, что ускоряет время вывода продукта на рынок и снижает количество ошибок благодаря частым и автоматическим проверкам.
 
 ---
-class: theBrown2Background
+
    
 # CI/CD инструменты
       
@@ -110,7 +116,7 @@ class: theBrown2Background
    - **Сравнение:** Jenkins предоставляет больше возможностей для кастомизации и сложных сценариев, тогда как GitLab CI и GitHub Actions удобны для быстрой и простой интеграции, особенно в малых и средних командах.
 
 ---
-class: theBrown2Background
+
 
 # Инфраструктура как код
       
@@ -121,7 +127,7 @@ class: theBrown2Background
    - **Примеры инструментов:** Terraform — один из наиболее популярных инструментов для IaC, который поддерживает множество облачных провайдеров. Ansible и CloudFormation также широко используются для автоматизации и управления инфраструктурой.
 
 ---
-class: theBrown2Background
+
 
 # Сети и управление трафиком  
    - **DNS и маршрутизация:** DNS (Domain Name System) — это система, используемая для преобразования доменных имен в IP-адреса. В контексте DevOps DNS играет важную роль в обеспечении доступности сервисов. Маршрутизация трафика обеспечивает правильную доставку данных к нужному ресурсу.  
@@ -130,7 +136,7 @@ class: theBrown2Background
 
  
 ---
-class: theBrown2Background
+
 
 # Облака и облачные технологии
       
@@ -141,7 +147,7 @@ class: theBrown2Background
    - **Облачные сервисы:** Lambda, S3, GCP Functions и другие серверлесс-сервисы облегчают работу с ресурсами и позволяют экономить на инфраструктуре, так как оплата идет только за фактическое использование.
 
 ---
-class: theBrown2Background
+
 
 # Логи и метрики 
       
@@ -152,7 +158,7 @@ class: theBrown2Background
    - **Интеграция мониторинга:** Интеграция мониторинга в CI/CD процессы помогает оперативно реагировать на сбои и проблемы, улучшая надежность приложений.
 
 ---
-class: theBrown2Background
+
 
 # GitOps  
       
@@ -162,7 +168,7 @@ class: theBrown2Background
    - **Преимущества:** GitOps делает процессы развертывания более управляемыми и предсказуемыми. Все изменения происходят через pull-реквесты, что упрощает код-ревью и обеспечивает контроль версий.  
    - **Инструменты для GitOps:** ArgoCD и Flux — это два популярных инструмента, которые автоматически синхронизируют состояние системы с тем, что описано в Git, обеспечивая согласованность и автоматизацию.
 ---
-class: theBrown3Background
+
 
 # Тренды в DevOps 
       
@@ -174,7 +180,7 @@ class: theBrown3Background
    - **DevSecOps и безопасность:** Внедрение практик безопасности (DevSecOps) на всех этапах разработки позволяет снизить риски и обеспечивает соответствие требованиям безопасности.
 
 ---
-class: theBrown3Background
+
 
 # DevOps в разных индустриях  
    - **Финтех:** В финансовом секторе DevOps помогает соблюдать строгие требования к безопасности и соответствию нормативным актам, а также ускорять выпуск новых продуктов.  
@@ -182,7 +188,7 @@ class: theBrown3Background
    - **Ритейл:** DevOps позволяет быстро адаптироваться к изменениям спроса, особенно в период пиковых нагрузок, таких как праздничные распродажи. Быстрое развертывание и масштабирование помогают поддерживать высокий уровень обслуживания клиентов.
 
 ---
-class: theBrown3Background
+
 
 # Заключение  
 
@@ -192,7 +198,7 @@ class: theBrown3Background
    - **Вопросы и ответы:** Вопросы аудитории.
 
     </textarea>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    <script src="/remark-latest.min.js">
     </script>
     <script>
       var slideshow = remark.create();
